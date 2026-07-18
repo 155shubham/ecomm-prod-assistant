@@ -1,5 +1,6 @@
 import importlib.metadata
-packages = ['langchain', 'langchain_core', 'python-dotenv', 'streamlit']
+packages = ['langchain', 'langchain_core', 'python-dotenv', 'streamlit', 'fastapi',
+'azure-search-documents', 'azure-identity', 'openai', 'langchain-community', 'tiktoken', 'ragas']
 for package in packages:
     try:
         version = importlib.metadata.version(package)
